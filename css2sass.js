@@ -8,6 +8,9 @@ var regExp = {
 }
 
 function css2sass(sourcePath, targetPath) {
+  if(!path.isAbsolute(sourcePath)){
+    throw new Error('sourcePath shoule be sbaolute')
+  }
   var source = fs.statSync(sourcePath)
   if(source.isFile()){
     if(!targetPath){
