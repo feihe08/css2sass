@@ -12,3 +12,7 @@ to
       display: block
       width: 100px
       height: 100px
+
+## note
+the little function convert css file to sass file by regexp, and it can't find grammer error,
+so you shoule promise the css file is legal.
