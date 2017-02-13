@@ -16,7 +16,14 @@ to
       height: 100px
 
 ## how to use
+```
+var css2sass = require('css2sass')
+var path = '/path/to/your/css/file/'
+var targetPath = 'path/to/your/target/sass/file'
+css2sass(path, targetPath)
+
+```
 
 ## note
 the little function convert css file to sass file by regexp, and it can't find grammer error,
-so you shoule promise the css file is legal.
+so you shoule promise the css grammer is legal.
