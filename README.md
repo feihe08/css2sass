@@ -1,6 +1,6 @@
 # css2sass
 convert css file to sass file
-## what it does
+## what it does this
 css2sass is a easy way to convert css file to sass file. For example, it can convert
 
     .container {
